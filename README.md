@@ -1,4 +1,4 @@
-# BasysInterview: Repository Structure
+# Diabetic Retinopayht Exploration: Repository Structure
 ```code```: folder that contains code
 - ```exploration.ipynb```: notebook with initial data exploration, figuring out how to best isolate the features of interest from the original data
 - ```preprocessing.ipynb```: runs the most successful image preprocessing functions developed in the exploration file
