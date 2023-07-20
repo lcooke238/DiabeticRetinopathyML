@@ -6,7 +6,9 @@ For this project, I built a machine learning model and a processing pipeline for
 code: folder that contains code
 - ```exploration.ipynb```: initial data exploration, this notebook documents my figuring out how to best isolate the features of interest from the original data.
 - ```preprocessing.ipynb```: runs the most successful image preprocessing functions developed in the exploration file.
-- ```modeling.ipynb```: first model attempt, uses a prebuilt cnn network along with some additional layers (and no transfer learning).
 - ```modeling_baseline.ipynb```: base model attempt, uses a prebuilt cnn network along with some additional layers with minimal to no image preprocessing.
-- ```modelingv2.ipynb```: final model, uses similar prebuild cnn network to first attempt, uses transfer learning and cleaner images.
+- ```modeling.ipynb```: first model attempt, uses a prebuilt cnn network along with some additional layers (and no transfer learning).
+- ```modelingv2.ipynb```: second model iteration, uses similar prebuild cnn network to first attempt, uses transfer learning and cleaner images.
+- ```modelingv3.ipynb```: final model iteration, uses identical model to v2, but uses a training set with balanced classes by undersampling data.
+- ```model_test.ipynb```: imports the final model generated for this project and tests its accuracy, sensistivity, and specificity. 
  
